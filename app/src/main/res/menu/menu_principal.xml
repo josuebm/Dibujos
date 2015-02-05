@@ -1,0 +1,75 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal">
+
+    <item android:id="@+id/action_color"
+        android:title="@string/action_color"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/color_picker" />
+
+    <item android:id="@+id/action_grosor"
+        android:title="@string/action_grosor"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/grosor" />
+
+    <item android:title="@string/action_figura"
+        android:id="@+id/action_figura"
+        android:showAsAction="always"
+        android:icon="@drawable/lapiz">
+
+    <menu>
+
+        <item android:id="@+id/action_linea"
+            android:title="@string/action_linea"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/linea" />
+
+        <item android:id="@+id/action_cuadrado"
+            android:title="@string/action_cuadrado"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/square" />
+
+        <item android:id="@+id/action_cuadrado_relleno"
+            android:title="@string/action_cuadrado_relleno"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/square_relleno" />
+
+        <item android:id="@+id/action_circulo"
+            android:title="@string/action_circulo"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/circle" />
+
+        <item android:id="@+id/action_circulo_relleno"
+            android:title="@string/action_circulo_relleno"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/circle_relleno" />
+
+        <item android:id="@+id/action_lapiz"
+            android:title="@string/action_lapiz"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/lapiz" />
+
+        <item android:id="@+id/action_goma"
+            android:title="@string/action_goma"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/goma" />
+
+        <item android:id="@+id/action_guardar"
+            android:title="@string/action_guardar"
+            android:orderInCategory="100"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/ic_action_save" />
+
+        </menu>
+    </item>
+</menu>

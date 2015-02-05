@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dibujos</string>
+    <string name="action_color">Color</string>
+    <string name="action_grosor">Grosor</string>
+    <string name="action_linea">Linea</string>
+    <string name="action_goma">Limpiar lienzo</string>
+    <string name="action_circulo">Círculo</string>
+    <string name="action_circulo_relleno">Círculo relleno</string>
+    <string name="action_cuadrado">Cuadrado</string>
+    <string name="action_cuadrado_relleno">Cuadrado relleno</string>
+    <string name="action_figura">Figura</string>
+    <string name="action_lapiz">Lápiz</string>
+    <string name="action_guardar">Guardar</string>
+
+    <string name="nombre_guardar">Elige un nombre</string>
+    <string name="nombre_usado">Ya existe un archivo con ese nombre.</string>
+    <string name="grosor_pincel">Grosor del pincel</string>
+
+</resources>
