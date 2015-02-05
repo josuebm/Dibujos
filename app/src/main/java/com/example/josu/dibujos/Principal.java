@@ -55,40 +55,47 @@ public class Principal extends Activity{
             menuItem.setIcon(R.drawable.linea);
             vista.setFigura("linea");
             menuItemGrosor.setVisible(true);
+            return true;
         }else if(id == R.id.action_cuadrado){
             menuItem.setIcon(R.drawable.square);
             vista.setFigura("cuadrado");
             menuItemGrosor.setVisible(true);
+            return true;
         }else if(id == R.id.action_circulo){
             menuItem.setIcon(R.drawable.circle);
             vista.setFigura("circulo");
             menuItemGrosor.setVisible(true);
+            return true;
         }else if(id == R.id.action_lapiz){
             menuItem.setIcon(R.drawable.lapiz);
             vista.setFigura("lapiz");
             menuItemGrosor.setVisible(true);
+            return true;
         }else if(id == R.id.action_cuadrado_relleno) {
             menuItem.setIcon(R.drawable.square_relleno);
             vista.setFigura("cuadrado relleno");
             menuItemGrosor.setVisible(false);
+            return true;
         }else if(id == R.id.action_circulo_relleno) {
             menuItem.setIcon(R.drawable.circle_relleno);
             vista.setFigura("circulo relleno");
             menuItemGrosor.setVisible(false);
+            return true;
         }else if(id == R.id.action_goma) {
             vista = new Vista(this);
             setContentView(vista);
             menuItem.setIcon(R.drawable.lapiz);
             vista.setFigura("lapiz");
             menuItemGrosor.setVisible(true);
+            return true;
         }else if(id == R.id.action_guardar) {
             try {
                 guardarFoto(vista.getDibujo());
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 

@@ -38,8 +38,6 @@ public class Vista extends View implements SeekBar.OnSeekBarChangeListener, Colo
     protected void onDraw(Canvas lienzo) {
         super.onDraw(lienzo);
         lienzo.drawColor(Color.WHITE);
-        //for(Recta r: rectas)
-        //    lienzo.drawLine(r.x0, r.y0, r.xi, r.yi, pincel);
         lienzo.drawBitmap(mapaDeBits, 0, 0, null);
         if(figura.equals("linea"))
             lienzo.drawLine(x0, y0, xi, yi, pincel);
@@ -146,17 +144,6 @@ public class Vista extends View implements SeekBar.OnSeekBarChangeListener, Colo
         pincel.setColor(color);
     }
 
-
-    class Recta{
-        public float x0, y0, xi, yi;
-
-        Recta(float x0, float y0, float xi, float yi) {
-            this.x0 = x0;
-            this.y0 = y0;
-            this.xi = xi;
-            this.yi = yi;
-        }
-    }
 
     public void cambioColor(Context contexto, ColorPickerDialog.OnColorSelectedListener listener){
         ColorPickerDialog colorPickerDialog = new ColorPickerDialog(contexto, pincel.getColor(), listener);

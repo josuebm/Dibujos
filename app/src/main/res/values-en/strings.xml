@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dibujos</string>
+    <string name="action_color">Color</string>
+    <string name="action_grosor">Width</string>
+    <string name="action_linea">Line</string>
+    <string name="action_goma">Clean canvas</string>
+    <string name="action_circulo">Circle</string>
+    <string name="action_circulo_relleno">Filled circle</string>
+    <string name="action_cuadrado">Square</string>
+    <string name="action_cuadrado_relleno">Filled square</string>
+    <string name="action_figura">Figure</string>
+    <string name="action_lapiz">Pencil</string>
+    <string name="action_guardar">Save</string>
+
+    <string name="nombre_guardar">Choose a name</string>
+    <string name="nombre_usado">There is already a file with this name.</string>
+    <string name="grosor_pincel">Width stroke</string>
+
+</resources>
